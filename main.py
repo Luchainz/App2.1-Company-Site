@@ -14,7 +14,7 @@ with col1:
     for index, row in df[:4].iterrows():
         # st.header(f"{row['first name']} {row['last name']}")
         st.header(f"{row['first name'].capitalize()} {row['last name'].capitalize()}")
-        st.write(row['role'])
+        st.write(row['role'],)
         st.image("images1/" + row["image"])
 
 with col2:
